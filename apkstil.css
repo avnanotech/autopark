@@ -1,0 +1,270 @@
+			body
+			{
+				background-color: #000000;
+				font-family: Arial;
+				margin: 0px;
+			}
+			table
+			{
+				font-family: Arial;
+				font-size: 8pt;
+			}
+			img
+			{
+				width: 200px;
+				height: 200px;
+			}
+			#ika{
+				width: 60px;
+				height: 30px;			 	
+			}
+			hr {
+			 border-width:2px;
+			 border-color: #000000;	
+			}
+			#dgm,#dgmd
+			{
+				background-color: #000000;
+				color: #00dd00;
+				border-top-color: #09AB09;	         
+				border-bottom-color: #008800;	         
+				border-left-color: #008800;	         
+				border-right-color: #008800;	         
+   			border-width:3px;
+				font-family: Arial;
+				font-size: 8pt;
+				font-weight: bold;
+				width: 100px;
+				height: 20px;
+			}
+			#dgmd
+			{
+				width: 10%;
+			}			
+			#kdgp,#kdgn,#kdmp,#kdmn {
+				background-color: #000077;
+				color: #ffffff;
+				text-align: center;				
+			}
+			#kdnn {
+				background-color: #000000;
+				color: #ffffff;
+				text-align: center;				
+			}
+			#kdn {
+				background-color: #cccccc;
+				color: #000099;font-weight: bold;
+				text-align: center;				
+			}
+
+			#aje,#ano{
+				background-color: #000000;
+				color: #00ff00;
+				font-family: Arial;
+				font-size: 12pt;
+				font-weight: bold;
+				width: 15px;
+				height: 15px;
+				text-align: center;
+			}
+                       #ano{
+				color: #ff9999;
+			}
+			#zavesa{
+   	    visibility: visible;
+          position: absolute;
+          left: 0px;
+          top: 0px;
+          width:100%;
+          height:100%;
+          text-align:center;
+          z-index: 1000;
+			}
+			#okno
+			{
+				background-color: #cdcdcd;
+				border-image:url(okvir.jpg) 100 100 round;
+				border-width: 15px;
+				width: 600px;
+				height: 300px;
+				position: fixed;
+				top: 200px;
+				left: 250px;
+			}
+			#okno1
+			{
+				background-color: #efefef;
+				border-image:url(okvir.jpg) 100 100 round;
+				border-width: 15px;
+				width: 300px;
+				height: 300px;
+				position: fixed;
+				top: 200px;
+				left: 250px;
+			}
+			
+			#fop
+			{
+				background: linear-gradient(to right,#666666,#444444,#666666);
+				color: white;font-weight: bold;text-align: center;
+				width: 30%;
+			}
+			#ftx
+			{
+				background-color: #ffffff;
+				color: #000000;
+				width: 70%;
+			}
+			#ftxt,#fdtx
+			{
+				background-color: #ffffff;
+				color: #000000;
+				width: 100%;
+			}
+			#fdtx
+			{
+				width:90%;
+			}
+			#gltb
+			{
+				width: 100%;
+				height: 100%;
+			}
+			#vozl
+			{
+				width: 96%;
+				position: relative; 
+				left: 2%;
+				top: 2%;
+			}
+			#opp,#top,#sop
+			{
+				background: linear-gradient(#444444,#666666,#444444);
+				color: #ffffff;text-shadow: 0px 1px #cccccc;
+				font-weight: bold;text-align: center;
+			}
+			#txt,#ttx,#stx,#stxx
+			{
+				background-color: #ffffff;
+				color: #000000;
+			}
+			#opp,#txt
+			{
+				width: 40%;
+			}
+			#sop
+			{
+				width: 15%;
+			}
+			#stx
+			{
+				width: 25%;
+			}
+			#stxx
+			{
+				width: 15%;
+			}
+			#lognas
+			{
+				text-align: center;
+				color: #ffffff;
+				font-size: 20pt;
+				position: relative;
+				top: -20px;
+			}
+			#lognass
+			{
+				text-align: center;
+				color: #ffffaa;
+				font-size: 30pt;
+				position: relative;
+				top: 20px;
+			}			
+			#mnu
+			{
+				background: linear-gradient(to bottom right,#111111,#666666,#111111);
+				font-weight: bold;
+				color: white;
+				height: 30px;
+				width: 150px;
+				text-align: center;
+			}
+			#mnn
+			{
+				background: linear-gradient(#111111,#666666,#666666,#666666,#111111);
+				font-weight: bold;
+				color: white;
+				height: 30px;
+				width: 200px;
+				text-align: center;
+			}
+			#nas
+			{
+			        background-image:url('image/aput.jpg');
+                                background-size: 100% 100%;
+				height: 100px;
+			}
+			#mek
+			{
+				width: 96%;
+				height: 96%;
+				background-color: #d9d9d9;
+				border: #999999 5px solid;opacity: 0.9;
+				position: relative;
+				left: 2%;
+				top: 2%;
+				overflow-y: scroll;
+			}
+			#aprk
+			{
+				background-color: #eeeeee;
+				background-image: url('image/lot.jpg');
+                                                           background-size: 100% 100%;
+				text-align: center;
+			}
+			#bltb
+			{
+				width: 150px;
+			}
+	        #blll
+			{
+				background: linear-gradient(#888888,#bbbbbb,#888888,#bbbbbb,#888888,#bbbbbb,#888888,#bbbbbb,#888888,#bbbbbb,#888888);
+			}
+			#ftbl,#kdtb
+			{
+				width: 96%;
+				position: relative;
+				left: 2%;
+				top: 5%;
+			}
+			#kdtb
+			{
+				height: 90%;
+			}
+		
+			#stbl,#tbop
+			{
+				width: 100%;
+			}
+			#nass{
+				width: 100%;				
+			}
+			#snas{
+				width: 70%;								
+			}
+			#logul{
+				width:400px;								
+				height:200px;
+	                        background-color:#666666;
+	                        border:#333333 10px solid;   
+	                        opacity: 0.9;
+	                        position: relative;
+				left:30%;
+			}
+			#lgtb{
+				width:80%;	
+				position: relative;
+				top:30%;
+				left:5%;
+				opacity:1;							
+			}
